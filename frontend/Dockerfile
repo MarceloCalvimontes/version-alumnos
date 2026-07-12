@@ -1,0 +1,1 @@
+# 📁 Pega aquí el contenido del README → Parte 1.2
