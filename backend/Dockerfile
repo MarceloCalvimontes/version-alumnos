@@ -1,5 +1,3 @@
-# 📁 Pega aquí el contenido del README → Parte 1.1
-```dockerfile
 # Etapa 1: Build (instala TODO, incl. dependencias de desarrollo)
 FROM node:20-alpine AS builder
 WORKDIR /app
@@ -16,4 +14,3 @@ RUN npm ci --omit=dev
 COPY --from=builder /app/src ./src
 EXPOSE 3000
 CMD ["node", "src/app.js"]
-```
